@@ -5,13 +5,14 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Exerício</title>
+<title>Câmbio Fácil</title>
 </head>
 <body>
 		
-		<form:form modelAttribute="torcedor" method="POST">
-		<p> Nome: <input type="text" name="nome"> </p>
-		<p> Time: <input type="text" name="time"> </p>
+		<h1>Conversor Cambial</h1>
+		
+		<form:form modelAttribute="moeda" method="POST">
+		<p> Valor em dólares ($): <input type="text" name="valorDolares"> </p>
 		<input type="submit" value="Enviar">
 		<p> ${mensagem} </p>
 		
