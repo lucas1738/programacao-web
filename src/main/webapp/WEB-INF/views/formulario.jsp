@@ -9,7 +9,7 @@
 </head>
 <body>
 		
-		<form:form modelAttribute="torcedor" method="POST">
+		<form:form modelAttribute="torcedor" method="POST" action="cadastro">
 		<p> Nome: <input type="text" name="nome"> </p>
 		<p> Time: <input type="text" name="time"> </p>
 		<input type="submit" value="Enviar">
